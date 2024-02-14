@@ -1,20 +1,20 @@
 meme_dict = {
-            "CRINGE": "Garip ya da utandırıcı bir şey",
-            "LOL": "Komik bir şeye verilen cevap",
-            'ROFL': 'Bir şakaya karşılık cevap',
-            'SHEESH': 'Onaylamamak',
-            'CREEPY': 'Korkunç',
-            'AGGRO': 'Agresifleşmek'
+            "CRINGE": "Weird/Emberrasing Things",
+            "LOL": "A word in the meaning of lauhing-out-loud",
+            'ROFL': 'Like hahaha',
+            'SHEESH': 'Not approving',
+            'CREEPY': 'Scary',
+            'AGGRO': 'Getting Aggressive'
             }
             
-word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+word = input("Write a word that u dont know the meaning of!: ")
 
 if word in meme_dict.keys():
-    # Kelime eşleşiyorsa ne yapmalıyız?
+    # If ur word matches my knowladge!
     print(meme_dict[word])
     
 else:
-    # Kelime eşleşmiyorsa ne yapmalıyız?
+    # What if the word doesn't exist in my absulute knowledge!
     print('Im sorry but i dont know that word yet!')
 
   
